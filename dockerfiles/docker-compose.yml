@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:   
+    devscore-frontend:
+        build: .
+        container_name: "devscore-frontend"
+        ports:
+            - "8098:9999"
+        hostname: devscore-frontend

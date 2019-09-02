@@ -1,0 +1,9 @@
+.pcTittle{
+    max-width: 90vw;
+    min-width: 90vw;
+    margin: 1em auto !important;
+    padding-bottom: 10px !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 2em;
+    border-bottom: #CC0000 1.5px solid !important;
+}

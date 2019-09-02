@@ -1,0 +1,213 @@
+#header {
+	width:100%; 
+	background: rgb(71, 71, 71); 
+	color:#fff; top:0; 
+	z-index:1000;
+}
+		
+body {
+	background: #fff;
+	max-width: 100vw !important;
+	min-width: 100vw !important;
+}
+body a {
+	transition: all 0.5s; 
+	text-decoration: none;
+}
+
+.fondo{
+	background-color:#fff !important;
+	width: 160px !important;
+	height:140px !important;
+	
+}
+.tileDon{
+	text-align:center;
+}
+#header{
+	border:none;
+	border-radius: 0em !important;
+}
+
+#header .container {
+	max-width:1280px; 
+	margin:auto; 
+	display:flex; 
+	align-items:flex-end; 
+	height:15px !important; 
+	justify-content: flex-start; 
+	padding:0px 20px; 
+}
+
+#header .container .logo a{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 900; 
+	font-size:24px; 
+	color:white !important;
+}
+
+#header .container .logo span{
+	color: #CC0000;
+}
+
+#header .text{
+	color:white !important;
+}
+
+/* login */
+.tsoft-login-component .input.ui {
+	width: 50% !important;
+	align-self: auto !important;
+	margin-left: 25% !important;
+}
+
+.tsoft-login-component button {
+	width: 30% !important;
+	margin-left: 35% !important;
+}
+
+.hdrDropItem, #hdrSubmenu .text{
+	color: #333 !important;
+}
+
+.hdrDropItem:hover, #hdrSubmenu .text:hover{
+	color: rgba(109, 109, 109, 0.473) !important;
+}
+
+#header .container .firstlogo {
+	margin-right: 30px;
+}
+.hdrDashboard{
+	color: white !important;
+	margin-bottom: -4px !important;
+}
+h2 {
+    font-size: 3rem !important;
+}
+.texto{
+	color: rgb(14, 13, 13) !important;
+	font-weight: bold  !important;
+}
+.texto2{
+	color: rgb(255, 2, 2) !important;
+	font-weight: bold !important;
+}
+#header .container .nav a, 
+#header .container .nav a:visited, 
+#header .container .nav a:active {
+	text-decoration: none; color:#fff;
+}
+
+#header .container .nav a:hover {
+	text-decoration: none; color:rgb(233, 230, 230) !important;
+}
+
+#header .container .nav ul li {
+	display:inline-block ; 
+	font-weight: 400; 
+	font-size:1.1 em; 
+	margin-right:40px;
+}
+#header .container .nav li.dropper {
+	position:relative; 
+}
+#header .container .nav li.dropper img {
+	max-width:15px; 
+}																																																																																																																																											
+#header .container .nav ul.drop-menu {
+	display:none; 
+	position:absolute;  
+	left:0px; width:180px; 
+	background: #555; 
+	z-index: 100; 
+}
+#header .container .nav ul.drop-menu-b {
+	display:none; 
+	position:absolute;  
+	left:130px; 
+	width:179px; 
+	background: #555;
+}
+
+#header .container .nav ul.drop-menu li {
+	padding:10px 10px; 
+	border-bottom:1px solid rgb(211, 209, 209); 
+	width:180px; 
+	font-size:15px; 
+	float: left;
+}
+
+#header .container .nav li:hover >ul{
+	display:block; 
+	z-index: 100;
+}
+
+#heade .container ul .nav li{
+	padding: 10px 15px;
+}
+
+#header .container .tsoft {
+	display:table; 
+	margin-left: auto; 
+}
+
+.tsoft-header-item .tsoft .logo {
+	position: relative;
+	top: 5px;
+}
+
+#header .container .tsoft img {
+	height:30px; 
+	display:table-cell; 
+	vertical-align: bottom;
+}
+#header .container .tsoft span {
+	display:table-cell; 
+	vertical-align: middle; 
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 300; 
+	text-transform:uppercase; 
+	font-size:14px; 
+	padding-right:15px;
+}
+#header .container .tsoft::after {
+	clear:both;
+}
+#main .table.header {
+	text-align: center;
+	background: #f3f7f2;
+}
+
+.table td:first-child {
+    text-align: center !important;
+}
+.hdrPopup{
+	position: absolute;
+	top: 10px !important;
+}
+.iconUser {
+	display: inline-block;
+	position: relative;
+	opacity: 1;
+	width: 1.18em;
+	height: 1em !important;
+}
+.iconUser ~ a {
+	position: relative;
+	top:2px;
+}
+/* @media screen and (max-width:970px) {
+	/* #main .cards.first {
+		display:block;
+	}
+	#main .cards.first .card {
+		width:70%; margin-right:auto; margin-left:auto;
+	} */
+	/* Harce menu hamburguesa a partir de este corte
+} */
+
+
+
+/* @media screen and (max-width:767px) {
+	/* A partir de este corte, las tarjetas ocupan 100% y se abren para abajo
+} */

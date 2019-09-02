@@ -1,0 +1,32 @@
+.btnButton{
+    width: 100px !important;
+}
+.btnButton:hover, .btnButtonGrid:hover, .login:hover{
+    background: white !important;
+    border: solid .5px rgba(192, 23, 23, 0) !important;
+    color: #333 !important;
+}
+/* .btnButtonGrid{
+    width: 50px !important;
+} */
+.btnImg{
+    width: 20px !important;
+    margin: auto !important;
+    background-image: #333 !important;
+}
+.btnEyes{
+   position: relative !important;
+   left: 120px;
+   bottom: 40px;
+   padding: 0 20px !important;
+}
+.login {
+    background: white !important;
+    border: solid .5px #CC0000 !important;
+    color: #333 !important;
+}
+.btnButton, .btnButtonGrid{
+    background: white !important;
+    border: solid .5px #CC0000 !important;
+    color: #333 !important;
+}
