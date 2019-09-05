@@ -12,7 +12,7 @@ pipeline {
 				sh 'npm run build'
 			}
 		}
-		stage('Deploy to http://10.10.40.20:8098/') {
+		stage('Deploy to http://192.168.200.238:8098/') {
 			agent any;
 			steps {
 				echo 'Deployando web...'
@@ -23,7 +23,7 @@ pipeline {
 			}
 		}
 	}
-	post {
+	/*post {
 		success {
             slackSend channel: '#general',
                   color: '#02fe6b',
@@ -34,5 +34,6 @@ pipeline {
                   color: '#FF0000',
                   message: "Devscore pipeline ${currentBuild.fullDisplayName} falló. Por favor revisar: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
         }
-    }
+    }*/
+	
 }
